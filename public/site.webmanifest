@@ -1,0 +1,21 @@
+{
+  "name": "شركة الحامدي لاستيراد المواد الغذائية",
+  "short_name": "الحامدي",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#dc2626",
+  "description": "شركة الحامدي — شركة ليبية رائدة في استيراد المواد الغذائية من أفضل الموردين حول العالم، بجودة عالية ومعايير صحية عالمية.",
+  "icons": [
+    {
+      "src": "/meta/logo-icon.png?v=2",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/meta/apple-touch-icon.png?v=2",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
