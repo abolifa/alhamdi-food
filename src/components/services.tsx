@@ -19,7 +19,7 @@ const Service = () => {
           viewport={{ once: true }}
           className="text-4xl md:text-5xl font-bold text-gray-900 mb-6"
         >
-          خدماتنا <span className="text-red-600">الرئيسية</span>
+          خدماتنا <span className="text-blue-600">الرئيسية</span>
         </motion.h2>
 
         <motion.p
@@ -39,7 +39,7 @@ const Service = () => {
           whileInView={{ width: "5rem", opacity: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
           viewport={{ once: true }}
-          className="mt-8 mx-auto h-[3px] bg-red-600 rounded-full"
+          className="mt-8 mx-auto h-[3px] bg-blue-600 rounded-full"
         />
       </div>
 
@@ -50,7 +50,7 @@ const Service = () => {
           title="استيراد المواد الغذائية"
           description="نستورد أجود المنتجات الغذائية من الأسواق العالمية لتلبية احتياجات السوق الليبي، مع التركيز على الجودة العالية وسلامة التخزين والنقل."
           image="/services/service-1.jpg"
-          color="rgba(255,0,0,0.85)"
+          color="rgba(11,20,63,0.85)" // #0B143F
         />
 
         <ServiceSection
@@ -58,7 +58,7 @@ const Service = () => {
           title="استيراد المواشي واللحوم"
           description="نوفر لحوماً ومواشي حية من مصادر موثوقة وبيطرية معتمدة، مع تطبيق معايير صحية صارمة لضمان منتجات طازجة وآمنة للمستهلك."
           image="/services/service-2.webp"
-          color="rgba(180,0,0,0.85)"
+          color="rgba(11,20,63,0.85)" // #0B143F
           reversed
         />
 
@@ -67,7 +67,7 @@ const Service = () => {
           title="التوزيع والتخزين المبرد"
           description="نمتلك شبكة توزيع متكاملة ومستودعات مبردة تضمن حفظ المنتجات بجودتها الكاملة حتى تصل إلى المتاجر والمستهلكين بأفضل حال."
           image="/services/service-3.jpg"
-          color="rgba(255,0,0,0.85)"
+          color="rgba(11,20,63,0.85)" // #0B143F
         />
       </div>
     </section>

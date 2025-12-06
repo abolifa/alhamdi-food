@@ -183,7 +183,7 @@ const Contact = () => {
             <button
               type="submit"
               disabled={loading}
-              className="mt-2 bg-[#ec1540] hover:bg-rose-600 text-white font-semibold py-3 rounded-lg shadow-lg transition-all"
+              className="mt-2 bg-[#001d5b] hover:bg-blue-600 text-white font-semibold py-3 rounded-lg shadow-lg transition-all"
             >
               {loading
                 ? "جاري الإرسال..."

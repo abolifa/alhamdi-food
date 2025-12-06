@@ -50,7 +50,7 @@ const Navbar = () => {
       <header className="container mx-auto px-5 xl:px-0 flex items-center justify-between transition-colors duration-300">
         <Link to="/" className="w-58 h-auto flex items-center justify-center">
           <img
-            src={scrolled ? "/meta/logo-icon.png" : "/meta/logo-icon-white.png"}
+            src={"/meta/logo.png"}
             className="w-auto h-16 object-contain transition-all duration-300"
             alt="Logo"
           />

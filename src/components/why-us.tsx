@@ -6,22 +6,22 @@ import { ShieldCheck, Globe2, CheckCircle2, Headphones } from "lucide-react";
 const WhyUs = () => {
   const perks = [
     {
-      icon: <ShieldCheck className="w-10 h-10 text-red-600" />,
+      icon: <ShieldCheck className="w-10 h-10 text-blue-600" />,
       title: "خبرة موثوقة في الاستيراد",
       desc: "سنوات من النجاح في توريد المنتجات الغذائية والمواشي واللحوم من أفضل المصادر العالمية.",
     },
     {
-      icon: <Globe2 className="w-10 h-10 text-red-600" />,
+      icon: <Globe2 className="w-10 h-10 text-blue-600" />,
       title: "شبكة توريد عالمية",
       desc: "نتعاون مع موردين معتمدين حول العالم لضمان التنوع، الجودة، والتسليم في الوقت المحدد.",
     },
     {
-      icon: <CheckCircle2 className="w-10 h-10 text-red-600" />,
+      icon: <CheckCircle2 className="w-10 h-10 text-blue-600" />,
       title: "جودة مضمونة وسعر منافس",
       desc: "نوازن بين الجودة والسعر لتقديم قيمة حقيقية تليق بعملائنا في السوق الليبي.",
     },
     {
-      icon: <Headphones className="w-10 h-10 text-red-600" />,
+      icon: <Headphones className="w-10 h-10 text-blue-600" />,
       title: "خدمة عملاء متميزة",
       desc: "فريقنا مستعد لتقديم الدعم والاستشارات من لحظة الطلب حتى وصول المنتج إليك.",
     },
@@ -45,7 +45,7 @@ const WhyUs = () => {
           className="text-4xl md:text-5xl font-bold text-gray-900 mb-6"
         >
           لماذا تختار{" "}
-          <span className="text-red-600 font-extrabold">شركتنا</span>؟
+          <span className="text-blue-600 font-extrabold">شركتنا</span>؟
         </motion.h2>
 
         <motion.p
@@ -68,7 +68,7 @@ const WhyUs = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: index * 0.15 }}
               viewport={{ once: true }}
-              className="p-8 rounded-2xl bg-white border border-gray-200 shadow-md hover:shadow-lg hover:border-red-200 transition-all duration-300"
+              className="p-8 rounded-2xl bg-white border border-gray-200 shadow-md hover:shadow-lg hover:border-blue-200 transition-all duration-300"
             >
               <div className="flex justify-center mb-5">{perk.icon}</div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">

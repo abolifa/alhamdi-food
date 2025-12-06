@@ -26,10 +26,6 @@ const About = () => {
             من نحن
           </h2>
 
-          <div className="inline-block bg-red-50 text-red-600 font-semibold px-5 py-2 rounded-full text-xs">
-            منذ عام 2015
-          </div>
-
           <p className="text-base text-gray-700 text-justify leading-relaxed">
             تأسست{" "}
             <span className="font-semibold text-gray-900">
@@ -48,7 +44,7 @@ const About = () => {
 
           <a
             href="#services"
-            className="inline-block px-12 py-3 bg-linear-to-r from-red-600 to-red-700 text-white font-semibold rounded-full shadow-md hover:from-red-700 hover:to-red-800 transition-all duration-300"
+            className="inline-block px-12 py-3 bg-linear-to-r from-blue-600 to-blue-700 text-white font-semibold rounded-full shadow-md hover:from-blue-700 hover:to-blue-800 transition-all duration-300"
           >
             اكتشف خدماتنا
           </a>

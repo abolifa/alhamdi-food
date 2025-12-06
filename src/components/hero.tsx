@@ -18,7 +18,7 @@ export default function Hero() {
 
       {/* توهج أحمر خلفي */}
       <motion.div
-        className="absolute -bottom-20 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-red-600/5 blur-[220px] rounded-full"
+        className="absolute -bottom-20 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-blue-600/5 blur-[220px] rounded-full"
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 2 }}
@@ -58,22 +58,13 @@ export default function Hero() {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <img
-            src="/meta/logo-icon.png"
-            alt="شعار شركة الشفق الأصيل"
+            src="/meta/logo.png"
+            alt="شعار شركة الحامدي"
             width={220}
             height={220}
-            className="mx-auto mb-8 w-36 h-auto drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]"
+            className="mx-auto mb-3 w-80 h-auto drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]"
           />
         </motion.div>
-
-        <motion.h1
-          className="text-4xl md:text-6xl leading-relaxed font-extrabold tracking-tight bg-clip-text text-transparent bg-linear-to-r from-white via-red-100 to-red-300"
-          initial={{ y: 60, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
-        >
-          شركة الحامدي
-        </motion.h1>
 
         <motion.p
           className="text-lg md:text-2xl text-gray-200 mb-10 leading-relaxed"
@@ -86,7 +77,7 @@ export default function Hero() {
 
         <motion.a
           href="#about"
-          className="inline-block px-10 py-3 text-lg font-semibold rounded-full bg-linear-to-r from-red-600 to-red-800 hover:from-red-700 hover:to-red-900 transition-all shadow-lg hover:shadow-red-800/30"
+          className="inline-block px-10 py-3 text-lg font-semibold rounded-full bg-linear-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 transition-all shadow-lg hover:shadow-blue-800/30"
           whileHover={{ scale: 1.06 }}
           whileTap={{ scale: 0.97 }}
         >
